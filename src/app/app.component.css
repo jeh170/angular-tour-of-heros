@@ -1,0 +1,13 @@
+.hero-display {
+  display: flex;
+  flex-flow: row;
+}
+
+.hero-display > .hero-diplay-list {
+  justify-self: flex-start;
+}
+
+.hero-display > .hero-display-card {
+  order: 1;
+  justify-self: flex-end
+}
